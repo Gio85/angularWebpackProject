@@ -16,4 +16,7 @@ router.route('/books/:id')
 router.post('/register', auth.register);
 router.post('/login', auth.login);
 
+
+//Need to work on the secureRoute!!!
+
 module.exports = router;
